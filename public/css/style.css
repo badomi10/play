@@ -1,0 +1,1826 @@
+body {
+    margin: 0%;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 120px;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    margin:  auto;
+    background-color: #da8a49;
+    opacity: 0.7;
+}
+
+footer {
+    width: 100%;
+    background-color: #da8a49;
+    opacity: 0.7;
+    margin-top: 3%;
+    position:absolute;
+    bottom: 0;
+}
+
+.page_top {
+    font-size: 25px;
+}
+
+.page_top a{
+    color: white;
+    Text-decoration:none
+}
+
+.header-item {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.header-logo {
+    font-size: 40px;
+    margin-top: 12px;
+}
+
+.header-logo button {
+    font-size: 100%;
+    background-color: #da8a49;
+    border: none;
+    color: white;
+}
+
+
+.header-list {
+    font-size: 20px;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-list button {
+    font-size: 80%;
+    background-color: rgb(2, 2, 140);
+    color: white;
+}
+
+.header_item {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1%;
+}
+
+.login_access button {
+    border: none;
+    background-color: #da8a49;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+#btn {
+    cursor: pointer
+}
+
+.click_list {
+    margin-right: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 20px;
+    opacity:0.7;
+    background-color: #da8a49;
+}
+
+.title h1 {
+    color: white;
+    margin: 0%;
+}
+
+.main h1 {
+    opacity: 0.8;
+}
+
+.login {
+    font-size: 100%;
+    padding-top: 50px;
+}
+
+.main  {
+    background-image: url(img/adpDSC_0186.jpg);
+    background-color: rgba(255,255,255,0.5);
+}
+
+.gym {
+    background-color: rgba(255,255,255,0.5);
+    width: 90%;
+    height: auto;
+    display: block;
+    position: absolute;
+}
+
+.event {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.event-item {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 100%;
+    margin-right: 10px;
+    width: 20%;
+}
+
+.event-item label {
+    background-color: rgb(7, 116, 206);
+    color: white;
+    width: 200%;
+}
+
+.region label {
+    background-color: rgb(7, 116, 206);
+    color: white;
+    width: 100%;
+}
+
+
+.region {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 100%;
+    width: 15%;
+}
+
+.form-control{
+    font-size: 100%;
+}
+
+.event_btn {
+    margin-left: 50px;
+    font-size: 150%;
+}
+
+.event_btn button {
+    background-color: rgb(7, 116, 206);
+    color: white;
+    border: none;
+    width: 120%;
+    font-size: 65%;
+}
+
+.team-box {
+    z-index: 2;
+}
+
+.back_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup_main {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.signup-tittle {
+    opacity: 0.8;
+    font-size: small;
+}
+
+.signup_compleate {
+    width: 90%;
+    margin: auto;
+}
+
+
+.signup-box dd {
+    margin: 0%;
+    font-size: 1.0rem;
+    padding: 0.5% 0 1%;
+    margin-bottom: 20px;
+}
+
+.signup-box label {
+    font-size: 1.2rem;
+}
+
+.signup-box input {
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.required {
+    color: red;
+}
+
+.signup_compleate {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+    font-size: 1.4rem;
+    margin: auto;
+}
+
+.signup_btn button {
+    font-size: 1.2rem;;
+    width: 25%;
+    background-color: #e7ab79;
+    border-color: rgb(188, 192, 195);
+    color: white;
+    margin-top: 30px;
+}
+
+.result-box {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.result-tittle {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.result-box dd {
+    margin: 0%;
+    font-size: 1.0rem;
+    padding: 0.5% 0 1%;
+}
+
+.result-box label {
+    font-size: 1.2rem;
+}
+
+.result-box input {
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.login_container {
+    width: 90%;
+    margin: auto;
+}
+
+.login-box {
+    text-align: center;
+}
+
+.signup_box {
+    border: solid 1px;
+    border-color: #BBBBBB;
+    width: 40%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.signup_title {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.signup_title button {
+    color: #da8a49;
+    background-color: white;
+    font-size: 18px;
+    border:  solid 0px;
+    opacity: 0.8;
+}
+
+.login-box label {
+    font-size: 1.2rem;
+}
+
+.login-box input {
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.login_btn {
+    margin: auto;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.login_btn button {
+    font-size: 1.2rem;;
+    width: 25%;
+    background-color: #e7ab79;
+    border-color: rgb(188, 192, 195);
+    color: white;
+    margin-top: 30px;
+}
+
+.login-box dd {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.back {
+    margin-top: 10px;
+}
+
+.back button {
+    background-color: white;
+    opacity: 0.7;
+    border: 0;
+    font-size: 80%;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_list a {
+    font-size: 1.2rem;
+    margin-right: 20px;
+}
+
+.new-event {
+    display: flex;
+}
+
+.new-event_item {
+    display: flex;
+    font-size: 150%;
+    width: 15%;
+}
+
+.new-event_item label {
+    background-color: rgb(7, 116, 206);
+    color: white;
+}
+
+.new-region {
+    display: flex;
+    font-size: 150%;
+    width: 30%;
+}
+
+.new-region label {
+    background-color: rgb(7, 116, 206);
+    color: white;
+}
+
+.event_btn {
+    margin-left: 50px;
+    font-size: 150%;
+}
+
+.newteam_box {
+    margin: auto;
+}
+
+.newteam_box dd {
+    margin: 0%;
+    font-size: 1.0rem;
+    padding: 0.5% 0 1%;
+}
+
+.newteam_box label {
+    font-size: 1.5rem;
+}
+
+.newteam_box input {
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.newteam_box textarea {
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.poat_compleate {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pass_box {
+    margin-top: 1%;
+    width: 90%;
+    margin: auto;
+}
+
+.pass_box dd {
+    margin: 0%;
+    font-size: 1.0rem;
+    padding: 0.5% 0 1%;
+}
+
+.pass_box label {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.pass_box input {
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.pass-tittle h1 {
+    margin-top: 3%;
+}
+
+.pass-tittle h2 {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.pass-input dl {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.pass-input dd {
+    margin-top: 2%;
+}
+
+
+.pass_btn button {
+    color: #da8a49;
+    background-color: white;
+    opacity: 0.8;
+    border:  solid 0px;
+    font-size: 120%;
+}
+
+.acc_item {
+    width: 90%;
+    margin: auto;
+}
+
+.acc_comp {
+    margin: 5% 0;
+    text-align: center;
+}
+
+.pass-btn {
+    width: 90%;
+    margin: auto;
+}
+
+.pass-btn button {
+    font-size: 17px;
+}
+
+.pass-tittle2 {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.newteam_box {
+    text-align: center;
+}
+
+.application_box {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.result_dis {
+    display: flex;
+}
+
+.team-result dt {
+    padding: 15px;
+    width: 20%;
+    background-color: #fcf2bd;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.team-result dd {
+    padding: 10px 2.5px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.post_head {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.post_list {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 3%;
+    border: 1px solid #aaa;
+}
+
+.list-item {
+    width: 90%;
+    margin: auto;
+}
+
+.result_box {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #aaa;
+    margin-top: 3%;
+}
+
+.result_dl {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header_logo button {
+    border: none;
+    background-color: #da8a49;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.result_team dt {
+    margin: 0%;
+    padding: 15px;
+    width: 17.5%;
+    background-color: #fcf2bd;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.result_team dd {
+    padding: 10px 2.5px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.detail {
+    margin-bottom: 1%;
+}
+
+.result_category {
+    display: flex;
+    padding: 1%;
+    width: 70%;
+}
+
+.result_event {
+    text-align: center;
+    display: flex;
+    border: 1px solid #aaa;
+    width: 100%;
+}
+
+.result_event dt {
+    background-color: rgb(7, 116, 206);
+    color: white;
+    width: 30%;
+}
+
+.result_event dd {
+    width: 70%;
+    margin: 0%;
+    margin-left: 3px;
+}
+
+.result_region {
+    text-align: center;
+    margin-left: 8%;
+    display: flex;
+    border: 1px solid #aaa;
+    width: 100%;
+}
+
+.result_region dt {
+    background-color: rgb(7, 116, 206);
+    color: white;
+    width: 30%;
+}
+
+.result_region dd {
+    width: 70%;
+    margin: 0%;
+    margin-left: 3px;
+}
+
+.result_event_datail {
+    text-align: center;
+    display: flex;
+    border: 1px solid #aaa;
+    width: 30%;
+}
+
+.result_event_datail dt {
+    background-color: rgb(7, 116, 206);
+    color: white;
+    width: 30%;
+}
+
+.result_event_datail dd {
+    width: 70%;
+    margin: 0%;
+    margin-left: 3px;
+}
+
+.result_region_datail {
+    text-align: center;
+    margin-left: 8%;
+    display: flex;
+    border: 1px solid #aaa;
+    width: 30%;
+}
+
+.result_region_datail dt {
+    background-color: rgb(7, 116, 206);
+    color: white;
+    width: 30%;
+}
+
+.result_region_datail dd {
+    width: 70%;
+    margin: 0%;
+    margin-left: 3px;
+}
+
+
+.result_time {
+    margin-left: 2%;
+    margin: 0%;
+}
+
+.time {
+    display: flex;
+    margin-top: 1%;
+}
+
+.place {
+    display: flex;
+    margin-top: 1%;
+}
+
+
+.result_team {
+    margin-left: 2%;
+}
+
+.result_sub {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+
+
+.result_time dt {
+    margin: 0%;
+    padding: 15px;
+    width: 20%;
+    background-color: #fcf2bd;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.result_time dd {
+    margin-right: 20px;
+    padding: 10px 2.5px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.detail {
+    margin-right: 2%;
+    padding-top: 2%;
+    text-align: right;
+    opacity: 0.8;
+}
+
+.detail button {
+    width: 7%;
+    background-color: rgb(2, 2, 140);
+    color: white;
+}
+
+.team_name  {
+    display: flex;
+}
+
+.team_guidance  {
+    display: flex;
+}
+
+.team_place  {
+    display: flex;
+}
+
+.team_time  {
+    display: flex;
+}
+
+.team_body  {
+    display: flex;
+}
+
+.team_detail dt{
+    margin: 0%;
+    padding: 15px;
+    width: 17%;
+    background-color: #fcf2bd;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.team_detail dd {
+    padding: 10px 2.5px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    width: 26%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.applicant_box {
+    margin: auto;
+    margin-left: 30px;
+    text-align: center;
+}
+
+.applicant_box dd {
+    margin: 0%;
+    font-size: 1.0rem;
+    padding: 0.5% 0 1%;
+}
+
+.applicant_box label {
+    font-size: 1.5rem;
+}
+
+.applicant_box input {
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.applicant_box textarea {
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    margin-left: 20px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.application_item {
+    width: 90%;
+    margin: auto;
+}
+
+.application_result h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    opacity: 0.8;
+}
+
+.induction h1 {
+    opacity: 0.8;
+    margin: auto;
+}
+
+.induction_btn {
+    margin: 0%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 2%;
+}
+
+.induction_btn button {
+    padding: 8px;
+    color: white;
+    background-color: rgb(2, 2, 140);
+    opacity: 0.8;
+    font-size: medium;
+}
+
+.account_name {
+    display: flex;
+}
+.account_email {
+    display: flex;
+}
+
+.account_info dt {
+    padding: 15px;
+    width: 20%;
+    background-color: #fcf2bd;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.account_info dd {
+    padding: 10px 2.5px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.a_edit_box {
+    text-align: center;
+}
+
+.a_edit_box dd {
+    margin: 0%;
+    font-size: 1.0rem;
+    padding: 0.5% 0 1%;
+}
+
+.a_edit_box label {
+    font-size: 1.5rem;
+}
+
+.a_edit_box input {
+    width: 30%;
+    font-size: 1.2rem;
+    padding: 10px 2.5px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+.application_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_btn {
+    background-color: gray;
+    color: white;
+    border: none;
+    font-size: 100%;
+}
+
+.right_btn {
+    background-color: rgb(2, 2, 140);;
+    color: white;
+    border: none;
+    font-size: 100%;
+    padding: 0 2%;
+}
+
+
+.delete_btn {
+    opacity: 0.8;;
+}
+
+.delete_btn button {
+    background-color: rgb(2, 2, 140);
+    color: white;
+    font-size: 100%;
+}
+
+.btn_list {
+    display: flex;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    justify-content: end;
+}
+
+.edit_btn {
+    margin-left: 2%;
+    opacity: 0.8;
+}
+
+.edit_btn button {
+    background-color: rgb(2, 2, 140);
+    color: white;
+    font-size: 100%;
+}
+
+.post_list_btn {
+    margin-left: 2%;
+    opacity: 0.8;
+}
+
+.post_list_btn button {
+    background-color: rgb(2, 2, 140);
+    color: white;
+    font-size: 100%;
+}
+
+.new_post {
+    margin-top: 2%;
+    opacity: 0.8;
+}
+
+.new_post button {
+    width: 10%;
+    background-color: #e1985d;
+    color: white;
+    font-size: 100%;
+    border-color: gray;
+}
+
+.post_compleate {
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    padding-bottom: 2%;
+}
+
+.left_button {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_button_right {
+    opacity: 0.8;
+    background-color: rgb(2, 2, 140);
+    color: white;
+}
+
+.post_compleate form {
+    padding: 0 2%;
+}
+
+.main_button {
+    margin-top: 3%;
+    margin-left: 80%;
+}
+
+.main_btn {
+    opacity: 0.8;
+    font-size: 120%;
+    color: white;
+    background-color: #e1985d;
+    border-color: gray;
+}
+
+.cancele {
+    text-align: right;
+}
+
+.cancele button {
+    opacity: 0.8;
+    background-color: rgb(2, 2, 140);
+    color: white;
+}
+
+.applicant_name {
+    display: flex;
+}
+
+.applicant_name dt {
+    padding: 15px;
+    width: 20%;
+    background-color: #fcf2bd;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.applicant_name dd {
+    padding: 10px 2.5px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.applicant_number {
+    display: flex;
+}
+
+.applicant_number dt {
+    padding: 15px;
+    width: 20%;
+    background-color: #fcf2bd;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.applicant_number dd {
+    padding: 10px 2.5px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.applicant_body {
+    display: flex;
+}
+
+.applicant_body dt {
+    padding: 15px;
+    width: 20%;
+    background-color: #fcf2bd;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.applicant_body dd {
+    padding: 10px 2.5px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.user_box {
+    padding-top: 1%;
+}
+
+.user_result dt {
+    padding: 15px;
+    width: 20%;
+    background-color: #fcf2bd;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    border-radius: 8px;
+}
+
+.user_result dd {
+    padding: 10px 2.5px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer_info{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    width: 90%;
+    margin: auto;
+}
+
+.footer_list {
+    margin-left: 2%;  
+    align-items: center;
+}
+
+.footer_list button {
+    background-color: rgb(2, 2, 140);
+    border: solid 2px;
+    border-color: gray;
+    font-size: 100%;
+    color: white;
+}
+
+.post_item {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.update_tittle {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.app_btn {
+    background-color: rgb(2, 2, 140);
+    color: white;
+    border-color: gray;
+    font-size: 100%;
+}
+
+.liked {
+    color: red;
+}
+
+.message h2 {
+    font-size: 100%;
+    opacity: 0.8;
+}
+
+.user_btn {
+    text-align: right;
+}
+
+.user_list h1 {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+
+.user_list_dl {
+    width: 90%;
+    margin: 0 auto;
+    border: solid 1px;
+    border-color: gray;
+    margin-bottom: 2%;
+}
+
+.user_list_name {
+    display: flex;
+}
+
+.user_list_email{
+    display: flex;
+}
+
+.user_list_dl dt {
+    margin-top: 2%;
+    padding: 15px;
+    width: 17%;
+    background-color: #fcf2bd;
+    margin-left: 2%;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.user_list_dl dd {
+    margin-top: 2%;
+    padding: 10px 2.5px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    width: 25%;
+    text-align: center;
+}
+
+.users_del {
+    margin: 1% 0;
+    margin-right: 5%;
+    opacity: 0.8;
+    text-align: right;
+}
+
+.users_del button {
+    background-color: rgb(2, 2, 140);
+    color: white;
+    font-size: 100%;
+}
+
+.user_list_back {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+
+.user_btn button {
+    width: 10%;
+    background-color: #e1985d;
+    color: white;
+    font-size: 100%;
+    border-color: gray;
+}
+
+
+.error-message  {
+    color: red;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+textarea {
+    resize: none;
+}
+
+.alert_danger {
+    color: red;
+    margin-top: 1%;
+}
+
+.post-list {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid;
+    border-color: gray;
+    margin-bottom: 3%;
+}
+
+.cancele_btn {
+    margin: 0 auto;
+    margin-right: 2%;
+}
+
+.acc_comp_box {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.back_btn_list {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+}
+
+.induction {
+    margin-top: 3%;
+}
+
+.induction h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.post_compleate {
+    margin-top: 50px;
+}
+
+
+@media (max-width: 1200px) and (min-width: 768px) {
+    .applicant_name dt {
+        width: 20%;
+        margin-left: 10%;
+    }
+
+    .applicant_name dd {
+        width: 40%;
+    }
+    
+    .applicant_number dt {
+        width: 20%;
+        margin-left: 10%;
+    }
+
+    .applicant_number dd {
+        width: 40%;
+    }
+
+    .applicant_body dt {
+        width: 20%;
+        margin-left: 10%;
+        font-size: 17px;
+    }
+
+    .applicant_body dd {
+        width: 40%;
+    }
+
+    .region {
+        width: 20%;
+    }
+    
+    .event-item {
+        width: 30%;
+    }
+    .result_category {
+        width: 90%;
+    }
+
+    .login-box input {
+        width: 40%;
+    }
+
+    .pass_box input {
+        width: 40%;
+    }
+
+    .signup-box input {
+        width: 40%;
+    }
+
+    .user_result dt {
+        font-size: 1rem;
+    }
+
+    .user_result dd {
+        font-size: 1rem;
+    }
+
+    .detail button {
+        width: 10%;
+    }
+
+    .result_team dt {
+        font-size: 1rem;
+    }
+
+    .team_detail dd {
+        width: 50%;
+    }
+
+    .applicant_box dd {
+        margin-bottom: 20px;
+    }
+
+    .applicant_box input {
+        width: 50%;
+    }
+
+    .applicant_box textarea {
+        width: 50%;
+    }
+
+    .new_post button {
+        width: 20%;
+    } 
+
+    .result_team dd {
+        width: 60%;
+    }
+
+    .required_message {
+        margin-top: 20px;
+    }
+
+    .newteam_box input {
+        width: 50%;
+    }
+
+    .newteam_box textarea {
+        width: 50%;
+    }
+
+    .team-result  dd {
+        width: 40%;
+    }
+
+    .account_info dd {
+        width: 40%;
+    }
+
+    .account_info dt {
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .a_edit_box input {
+        width: 40%;
+    }
+
+    .user_btn button {
+        width: auto;
+    }
+}
+ 
+@media (max-width: 767px) {
+
+
+    header {
+        height: 50px;
+    }
+    .header_logo button {
+       font-size: 120%;
+    }
+
+    .page_top {
+        font-size: 17px;
+    }
+
+    .main h1 {
+        font-size: 20px;
+    }
+
+    .induction h1 {
+        font-size: 17px;
+    }
+
+    .induction_btn {
+        text-align: right;
+    }
+
+    .induction_btn button {
+        font-size: 10px;
+    }
+
+    .login_access button {
+        font-size: 100%;
+    }
+
+    .result_box {
+        width: 98%;
+    }
+    
+    .result_team dt {
+        width: auto;
+        font-size: 20px;
+    }
+
+    .result_category {
+        width: 95%;
+    }
+
+    .event {
+        display: block;
+    }
+
+    .event-item {
+        margin: 0%;
+        margin-bottom: 10px;
+    }
+
+    .event-item label {
+        width: 20%;
+        font-size: 100%;
+    }
+
+    .region {
+        margin: 0%;
+    }
+
+    .region label {
+        width: 26%;
+        font-size: 100%;
+    }
+
+    .event_btn {
+        font-size: 20px;
+        text-align: right;
+    }
+
+    .event_btn button {
+        width: auto;
+    }
+
+    .result_event dd {
+        font-size: 12px;
+    }
+
+    .result_team dd {
+        margin-left: 3%;
+        width: 55%;
+    }
+
+    .login-box input {
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    .login-box dd {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+    .login_btn button {
+        width: auto;
+    }
+
+    .signup_title button {
+        font-size: 15px;
+    }
+
+    .header-logo {
+        font-size: 15px;
+        margin-top: 12px;
+    }
+
+    .header-list {
+        font-size: 10px;
+        margin-top: 12px;
+    } 
+
+    .pass_box input {
+        width: 70%;
+        font-size: 0.8rem;
+    }
+
+    .pass-tittle h1 {
+        margin-top: 5%;
+        font-size: 20px;
+    }
+
+    .pass-tittle h2 {
+        font-size: 15px;
+    }
+
+    .pass_box label {
+        font-size: 1rem;
+    }
+
+    .right_btn {
+        font-size: 80%;
+    }
+
+    .left_btn {
+        font-size: 80%;
+    }
+
+    .pass-input dl {
+        margin-top: 5%;
+    }
+
+    .back_btn {
+       margin-top: 50px;
+    }
+
+    .pass_box dd {
+        margin-top: 20px;
+    }
+
+    .pass-tittle2 h1 {
+       font-size: 15px;
+    }
+
+    .signup-box input {
+        width: 70%;
+    }
+
+    .signup-box p {
+        font-size: 10px;
+    }
+
+    .user_result dt {
+        padding: 15px;
+        width: 20%;
+        background-color: #fcf2bd;
+        margin-bottom: 10px;
+        margin-left: 5%;
+        font-size: 10px;
+        opacity: 0.8;
+        border-radius: 8px;
+    }
+
+    .user_result dd {
+        padding: 10px 2.5px;
+        font-size: 1rem;
+        border-radius: 8px;
+        border: 1px solid #aaa;
+        width: 50%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+    
+    .result-tittle h1 {
+        font-size: 15px;
+    }
+    
+    .detail button {
+        width: auto;
+    }
+
+    .footer_list button {
+        font-size: 15px;
+        margin: auto;
+    }
+
+    .result_event_datail {
+        width: 50%;
+    }
+
+    .result_region_datail {
+        width: 50%;
+    }
+
+    .result_event_datail dd {
+        font-size: 12px;
+    }
+
+    .team_detail dt {
+        width: 30%;
+        font-size: 1rem;
+    }
+
+    .team_detail dd {
+        width: 60%;
+        margin-left: 10px;
+        font-size: 1rem;
+    }
+
+    .applicant_box input {
+        width: 70%;
+    }
+
+    .applicant_box {
+        margin: 0;
+    }
+
+    .applicant_box textarea {
+        width: 70%;
+    }
+
+    .applicant_box dd {
+        margin-bottom: 20px;
+    }
+
+    .application_result h1 {
+        font-size: 20px;
+    } 
+
+    .footer_list {
+        font-size: 10px;
+    }
+
+    .new_post button {
+        width: 40%;
+    } 
+
+    .post_list {
+        width: 90%;
+    }
+
+    .region {
+        width: 50%;
+    }
+    
+    .event-item {
+        width: 65%;
+    }
+
+    .newteam_box input {
+        width: 70%;
+    }
+
+    .newteam_box textarea {
+        width: 70%;
+    }
+
+    .required_message {
+        margin-top: 20px;
+    }
+
+    .main-new h1 {
+        font-size: 20px;
+    }
+
+    .team-result dd {
+        width: 60%;
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+    .team-result dt {
+        margin-left: 2%;
+        font-size: 13px;
+    }
+
+    .update_tittle {
+        margin: 20px auto;
+    }
+
+    .update_tittle h1 {
+        font-size: 20px;
+    }
+
+    .account_info dd {
+        width: 60%;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .account_info dt {
+        width: 30%;
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+
+    .account-tittle h1 {
+        font-size: 20px;
+    }
+
+    .a_edit_box input {
+        width: 70%;
+    }
+
+    .main-new h1 {
+        font-size: 15px;
+    }
+
+    .required_message {
+        font-size: 15px;
+    }
+
+    .acc_comp h1 {
+        font-size: 15px;
+    }
+
+    .user_btn button {
+        width: auto;
+    }
+
+    .form-control {
+        font-size: 100%;
+    }
+
+    .applicant_name dt {
+        width: 20%;
+        margin-left: 5%;
+    }
+
+    .applicant_name dd {
+        width: 60%;
+        margin-left: 2%;
+    }
+    
+    .applicant_number dt {
+        width: 20%;
+        margin-left: 5%;
+    }
+
+    .applicant_number dd {
+        width: 60%;
+        margin-left: 2%;
+    }
+
+    .applicant_body dt {
+        width: 20%;
+        margin-left: 5%;
+        font-size: 17px;
+    }
+
+    .applicant_body dd {
+        width: 60%;
+        margin-left: 2%;
+    }
+
+    .post-tittle h1 {
+        font-size: 20px;
+    }
+
+   
+}
