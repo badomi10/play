@@ -339,39 +339,9 @@ class usersController extends Controller
         return View('users.update', compact('team','event', 'region',));
     }
 
-
     public function logout(){
         Auth::logout();
         return redirect()->route('users.login');
-    }
-
-    public function confirm(Request $request)
-    {
-        $request->validate([
-            'name' => 'required|max:10',
-            'kana' => 'required|max:10',
-            'email' => 'required|email',
-            'tel' => 'numeric',
-            'body' => 'required'
-        ]);
-        $input = $request->all();
-
-        return view('contacts.confirm', [
-            'input' => $input,
-        ]);  
-    }
-
-    public function complete2(Request $request)
-    {
-        if($request->input('back') == 'back'){
-            return redirect('./contact')->withInput();
-        }
-
-        $Play = user::all();
-        $Play = new user;
-        $Play->timestamps = false; 
-        $Play->fill($request->all())->save();
-        return view('Play.complete', compact('Play'));
     }
 
     public function edit($id)
