@@ -24,7 +24,6 @@
         </form>
       </div>
       </div>
-      <script src="{{ asset('js/cafe.js') }}"></script>
   </header> 
     <form action="{{ route('users.complete') }}" method="post">
     @csrf
@@ -59,14 +58,14 @@
               @endif
             </dt>
             <dd><input type="password" name="password" id="password" placeholder="パスワード"  value=""></dd>
-            <p>※パスワードは、英数字で一つ以上の数字、一つ以上の大文字を含めて作成してください</p>
+            <p>※パスワードは、英数字でご入力ください。一つ以上の数字、一つ以上の大文字を含めて作成してください</p>
           </dl>  
         </div>
         <div class="signup_btn"><button type="submit" id="btn" onclick="return confirm('登録しますか？')" />登録</button></div>
       </div>    
     </form>      
     <div class="back_btn_list">
-      <form action="{{ route('users.login') }}" method="get">
+      <form action="{{ route('users.first') }}" method="get">
         <button class="left_btn" id="btn">戻る</button>
       </form>
     </div>

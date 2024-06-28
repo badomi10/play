@@ -88,8 +88,9 @@
             </dl>
           </div>
         </div> 
-      @endforeach
-      {{ $teams->links() }}
+        @endforeach
+        {{ $teams->links() }}
+      </div>
     </section>
     <footer>
       <div class="header_item">
