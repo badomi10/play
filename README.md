@@ -7,7 +7,7 @@
 パスワード：testTEST155
 ### 一般ユーザ
 メールアドレス：test@test.co.jp
-パスワード：testTEST1
+パスワード：TESTtest10
 # 環境
 XAMMP/MySQL
 ## テーブル名
