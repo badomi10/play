@@ -228,10 +228,9 @@ class usersController extends Controller
     public function list(Request $request)
     {
         $user = $request->user(); 
-        $apps = $user->apps; 
+        $apps = $user->apps;
         $teamIds = $apps->pluck('team_id'); 
         $teams = Team::whereIn('id', $teamIds)->orderBy('created_at', 'desc')->paginate(10);
-        
         return view('users.list', compact('user', 'apps', 'teams'));
     }
 
@@ -299,8 +298,6 @@ class usersController extends Controller
         return redirect()->route('users.list');
     }
     
-    
-
     public function user_list()
     {
         $Play = user::all();

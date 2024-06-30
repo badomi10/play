@@ -68,11 +68,12 @@
           </div>
           <div class="detail"><button type="submit" id="btn">詳細</button></div>
         </div>
-      </form>
-      @endforeach
-      {{ $teams->links() }}
-      </section>
-      @include('users.footer')
+        </form>
+        @endforeach
+        {{ $teams->links() }}
+      </div>
+    </section>
+    @include('users.footer')
   </body>
 </html>
 

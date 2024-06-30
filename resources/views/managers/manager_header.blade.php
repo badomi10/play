@@ -15,12 +15,11 @@
                     </form>
                 </div>
                 <div class="click_list">
-                <form action="{{ route('users.logout') }}" method="get">
-                @csrf
-                <button type="submit" id="btn">ログアウト</button>
-                </form>
+                    <form action="{{ route('users.logout') }}" method="get">
+                    @csrf
+                    <button type="submit" id="btn">ログアウト</button>
+                    </form>
                 </div>
-            </form>
             </div>
         </div>
     </nav>

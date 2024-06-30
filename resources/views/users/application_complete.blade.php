@@ -21,13 +21,12 @@
         <div class="left_button">
           <form action="{{ route('users.index') }}" method="post">
           @csrf
-          <button class="left_btn" type="submit" id="btn">メインページへ戻る</button>
+          <button class="left_btn" type="submit" id="btn">メイン画面へ</button>
           </form>
-          <form action="{{ route('users.list') }}" method="get">
+          <form action="{{ route('users.list') }}" method="post">
             @csrf
             <button class="left_button_right" type="submit" id="btn">応募一覧</button>
           </form>
-        </div>
         </div>
       </div>
     </section>

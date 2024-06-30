@@ -53,19 +53,19 @@
           </dl>
         </div>
         <div class="btn_list">
-            <div class="delete_btn">
-              <form action="{{ route('managers.team_delete', $team->id) }}" method="post">
-              @csrf
-                <td><button type="submit" name="delete" class="delete" id="btn" onclick="return confirm('削除しますか？')" />削除</button></td>
-              </form>
-            </div>
-            <div class="edit_btn">
-              <form action="{{ route('users.post_edit', $team->id) }}" method="post">
-              @csrf
-                <td><button type="submit" class="edit" id="btn">編集</button></td>
-              </form>
-            </div>
+          <div class="delete_btn">
+            <form action="{{ route('managers.team_delete', $team->id) }}" method="post">
+            @csrf
+              <td><button type="submit" name="delete" class="delete" id="btn" onclick="return confirm('削除しますか？')" />削除</button></td>
+            </form>
           </div>
+          <div class="edit_btn">
+            <form action="{{ route('users.post_edit', $team->id) }}" method="post">
+            @csrf
+              <td><button type="submit" class="edit" id="btn">編集</button></td>
+            </form>
+          </div>
+        </div>
       </div>
       <div class="user_list_back">
         <button class="left_btn" type="button" id="btn" onclick="history.back()">戻る</button>

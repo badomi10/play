@@ -58,7 +58,8 @@
       <div class="main_button">
         <form action="{{ route('users.index') }}" method="post">
         @csrf
-        <button class="main_btn" type="submit" id="btn">メインページへ戻る</button>
+        <button class="main_btn" type="submit" id="btn">メイン画面へ</button>
+        </form>
       </div>
     </section>
     @include('users.footer')

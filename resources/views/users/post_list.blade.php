@@ -38,6 +38,10 @@
     </div>
     <div class="back_btn_list">
       <button class="left_btn" type="button" id="btn" onclick="history.back()">戻る</button>
+      <form action="{{ route('users.index') }}" method="post">
+        @csrf
+        <button class="back_btn_right" type="submit" id="btn">メイン画面へ</button>
+      </form>
     </div>
     </section>
     @include('users.footer')

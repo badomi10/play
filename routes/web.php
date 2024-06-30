@@ -41,6 +41,7 @@ Route::post('/pass_complete', 'App\Http\Controllers\usersController@pass_complet
 
 Route::post('/detail/{id}/', 'App\Http\Controllers\usersController@detail')->name('users.detail');
 
+Route::get('/application/{id}', 'App\Http\Controllers\usersController@application')->name('users.application');
 Route::post('/application/{id}', 'App\Http\Controllers\usersController@application')->name('users.application');
 
 Route::post('/application_complete/{id}', 'App\Http\Controllers\usersController@application_complete')->name('users.application_complete');

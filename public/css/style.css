@@ -555,10 +555,14 @@ footer {
 }
 
 .post_list {
-    width: 70%;
     margin: 0 auto;
     margin-top: 3%;
     border: 1px solid #aaa;
+    width: 70%;
+}
+
+.post_list_box {
+    margin:  0 auto;
 }
 
 .list-item {
@@ -1021,12 +1025,17 @@ footer {
     opacity: 0.8;
     font-size: 120%;
     color: white;
-    background-color: #e1985d;
+    background-color: rgb(2, 2, 140);
     border-color: gray;
 }
 
 .cancele {
     text-align: right;
+}
+
+.cancele form {
+    margin: 0 auto;
+    margin-top: 10px;
 }
 
 .cancele button {
@@ -1037,6 +1046,7 @@ footer {
 
 .applicant_name {
     display: flex;
+    margin-top: 10px;
 }
 
 .applicant_name dt {
@@ -1197,7 +1207,7 @@ footer {
 }
 
 .user_list_dl {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     border: solid 1px;
     border-color: gray;
@@ -1238,18 +1248,29 @@ footer {
     margin-right: 5%;
     opacity: 0.8;
     text-align: right;
+    width: 90%;
 }
 
 .users_del button {
     background-color: rgb(2, 2, 140);
     color: white;
-    font-size: 100%;
+    font-size: 120%;
 }
 
 .user_list_back {
+    display: flex;
+    justify-content: space-between;
     width: 90%;
     margin: 0 auto;
     margin-bottom: 2%;
+}
+
+.user_list_right_btn {
+    width: 120%;
+    background-color: rgb(2, 2, 140);
+    color: white;
+    border-color: gray;
+    font-size: 100%;
 }
 
 
@@ -1290,6 +1311,10 @@ textarea {
     margin-right: 2%;
 }
 
+.cancele_btn button {
+    margin-bottom: 20px;
+}
+
 .acc_comp_box {
     width: 90%;
     margin: 0 auto;
@@ -1299,6 +1324,22 @@ textarea {
     width: 90%;
     margin: 0 auto;
     margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back_btn_list button {
+    font-size: 100%;
+} 
+
+
+.back_btn_right {
+    background-color: rgb(2, 2, 140);;
+    color: white;
+    border: none;
+    font-size: 100%;
+    padding: 0 2%;
+    width: 120%;
 }
 
 .pagination {
@@ -1317,6 +1358,30 @@ textarea {
 
 .post_compleate {
     margin-top: 50px;
+}
+
+.result_list_box {
+    margin: 0 auto;
+    border: 1px solid #aaa;
+}
+
+.post_box {
+    margin: 0 auto;
+}
+
+.applicant_list {
+    margin-bottom: 20px;
+}
+
+.applicant_dl {
+    border: 1px solid #aaa;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.manager_main {
+    width: 90%;
+    margin: 0 auto;
 }
 
 
@@ -1443,6 +1508,22 @@ textarea {
 
     .user_btn button {
         width: auto;
+    }
+
+    .user_list_dl dd {
+        width: 60%;
+        font-size: 1rem;
+        margin-left: 5px;
+    }
+
+    .user_list_dl dt {
+        font-size: 20px;
+        width: 30%;
+        margin-left: 1%;
+    }
+
+    .users_del button {
+        font-size: 100%;
     }
 }
  
@@ -1822,5 +1903,23 @@ textarea {
         font-size: 20px;
     }
 
-   
+   .back_btn_right {
+    width: 110%;
+   }
+
+   .user_list_dl dd {
+        width: 60%;
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+    .user_list_dl dt {
+        font-size: 10px;
+        width: 30%;
+        margin-left: 1%;
+    }
+
+    .users_del button {
+        font-size: 70%;
+    }
 }

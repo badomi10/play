@@ -52,6 +52,5 @@
         </div>
     </form>
     </section>
-    @include('users.footer')
   </body>
 </html>

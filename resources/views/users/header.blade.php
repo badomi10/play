@@ -20,7 +20,6 @@
                 <button type="submit" id="btn">ログアウト</button>
                 </form>
                 </div>
-            </form>
             </div>
         </div>
     </nav>

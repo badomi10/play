@@ -9,9 +9,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
     <style>
-      .hamburger-menu {
-        top: 65px;
-      }
     </style>
   </head>
   <body>
@@ -30,7 +27,6 @@
         </form>
       </div>
       </div>
-      <script src="{{ asset('js/cafe.js') }}"></script>
   </header> 
     <section>
       <div class="pass-item">
@@ -43,6 +39,5 @@
         </div>
       </div>
     </section>
-    @include('users.footer')
   </body>
 </html>

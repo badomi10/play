@@ -42,6 +42,12 @@ class managerController extends Controller
         return view('managers.manager_edit', compact('team'));
     }
 
+    public function manager_user(Request $request)
+    {
+        $users = User::orderBy('created_at', 'desc')->paginate(10);
+        return view('managers.manager_user', compact('users'));
+    }
+
 
     public function user_delete($id){
         $users = User::find($id);

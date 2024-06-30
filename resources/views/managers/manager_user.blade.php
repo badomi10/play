@@ -35,7 +35,12 @@
             </div>
             <div class="user_list_back">
                 <button class="left_btn" type="button" id="btn" onclick="history.back()">戻る</button>
+                <form action="{{ route('managers.manager') }}" method="post">
+                @csrf
+                <button class="user_list_right_btn" type="submit" id="btn">メイン画面へ</button>
+                </form>
             </div>
+            {{ $users->links() }}
         </div>
     </section>
     @include('users.footer')

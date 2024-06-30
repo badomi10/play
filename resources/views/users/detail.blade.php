@@ -17,7 +17,6 @@
       <div class="container">
         <div class="main">
           <h1>チーム詳細</h1>
-          <!-- <img class="gym" src="{{ asset('img/adpDSC_0186.jpg') }}" alt=""> -->
         </div>
         <div class="result_category">
             <div class="result_event_datail">
@@ -57,12 +56,12 @@
           <span class="likes">
               いいね<i class="fas fa-heart like-toggle" data-team-id="{{ $team->id }}"></i>
             <span class="like-counter">{{$team->likes_count}}</span>
-          </span><!-- /.likes -->
+          </span>
         @else
           <span class="likes">
           いいね<i class="fas fa-heart  like-toggle liked" data-team-id="{{ $team->id }}"></i>
             <span class="like-counter">{{$team->likes_count}}</span>
-          </span><!-- /.likes -->
+          </span>
         @endif
         <div class="post_compleate">
           <button class="left_btn" type="button" id="btn" onclick="history.back()">戻る</button>

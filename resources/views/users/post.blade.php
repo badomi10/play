@@ -38,24 +38,24 @@
               <dt>地域</dt>
               <dd>{{ $region->name }}</dd>
             </div> 
-            </div>
-            <div class="result_sub">
-            <dl class="result_team">
-              <div class="team_name">
-                <dt>チーム名</dt>
-                <dd>{{$team_user->t_name}}</dd> 
-              </div>
-                <div class="time">
-                  <dt>活動日時</dt>
-                  <dd>{{$team_user->time}}</dd> 
-                </div>
-                <div class="place">
-                  <dt>活動場所</dt>
-                  <dd>{{$team_user->place}}</dd>
-                </div>
-              </dl>
-            </div>
+          </div>
           </dl>
+          <div class="result_sub">
+          <dl class="result_team">
+            <div class="team_name">
+              <dt>チーム名</dt>
+              <dd>{{$team_user->t_name}}</dd> 
+            </div>
+              <div class="time">
+                <dt>活動日時</dt>
+                <dd>{{$team_user->time}}</dd> 
+              </div>
+              <div class="place">
+                <dt>活動場所</dt>
+                <dd>{{$team_user->place}}</dd>
+              </div>
+            </dl>
+          </div>
           <div class="btn_list">
             <div class="delete_btn">
               <form action="{{ route('users.delete', $team_user->id) }}" method="post">

@@ -21,7 +21,7 @@
           <div class="acc_comp"><h1>アカウント情報を変更いたしました。</h1></div>
           <form action="{{ route('users.index') }}" method="get">
             <div class="post_compleate">
-              <button class="right_btn" type="submit" id="btn">メイン画面へ戻る</button>
+              <button class="right_btn" type="submit" id="btn">メイン画面へ</button>
             </div>
           </form>
         </div>
