@@ -9,7 +9,7 @@
 メールアドレス：test@test.co.jp
 パスワード：testTEST1
 # 環境
-MAMP/MySQL
+XAMMP/MySQL
 ## テーブル名
 Play
 
